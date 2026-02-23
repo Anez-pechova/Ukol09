@@ -1,7 +1,6 @@
 let nadpis = document.querySelectorAll("h1")[0];
 
 document.addEventListener("keyup", (e)=> {
-    console.log(e.code);
     if (e.code === "KeyB"){
         nadpis.style.color = "blue";
     } else if (e.code === "KeyR") {
